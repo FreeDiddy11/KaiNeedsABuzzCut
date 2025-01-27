@@ -2,11 +2,13 @@
 <html>
 <body>
 
-<h2>We are going to change some things with JS!</h2>
+<h2>Time to show something with HTML</h2>
 
-<p id="demo">JavaScript can change HTML content.</p>
+<p>JavaScript is going to make the P tag unhide.</p>
 
-<button type="button" onclick='document.getElementById("demo").innerHTML = "JavaScript made this change!"'>Click Me!</button>
+<p id="demo" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
 
 </body>
-</html>
+</html> 
